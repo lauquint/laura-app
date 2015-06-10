@@ -1,0 +1,19 @@
+{
+    "name": "lauquint/app",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/lauquint/laura-fw"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6",
+        "lauquint/fw": "dev-devel"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/App"
+        }
+    }
+}
