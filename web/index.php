@@ -1,6 +1,8 @@
 <?php
 
-echo 'hi!';
+require '../vendor/autoload.php';
 
-$app= new App;
-$app->run();
+use Fw\Application;
+
+$application= new Application;
+$application->run();
