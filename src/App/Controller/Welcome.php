@@ -1,9 +1,11 @@
 <?php
 
+namespace App\Controller;
+
 class Welcome {
 
-    public function __construct() {
-        echo 'Hello';
+    public function __invoke() {
+        echo 'Welcome bitches!';
     }
 
 }

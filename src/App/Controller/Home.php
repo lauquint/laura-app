@@ -1,8 +1,10 @@
 <?php
 
+namespace App\Controller;
+
 class Home {
 
-    public function __construct() {
+    public function __invoke() {
         echo 'Hello';
     }
 
