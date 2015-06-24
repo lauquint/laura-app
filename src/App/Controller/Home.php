@@ -2,9 +2,12 @@
 
 namespace App\Controller;
 
-class Home {
+use Fw\Component\Controllers\Controller;
+use Fw\Component\Dispatching\HttpRequest;
 
-    public function __invoke() {
+class Home implements Controller {
+
+    public function __invoke(HttpRequest $request) {
         echo 'Hello';
     }
 

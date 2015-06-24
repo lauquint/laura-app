@@ -1,6 +1,13 @@
 <?php
 
 $routes = array(
-    'home'=>array('/', 'get'),
-    'welcome'=>array('welcome', 'get'),
+    'Home'=> array(
+        'route'=>'/',
+        'method'=>'get'
+    ),
+
+    'Welcome' => array(
+        'route'=>'/welcome',
+        'method'=>'get'
+    ),
 );

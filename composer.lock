@@ -12,7 +12,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lauquint/laura-fw",
-                "reference": "2545e04504a98ad8cab3ce42a2b9d826e4dcab73"
+                "reference": "3b13dcc930a88a7cb5e320396c1374958f3dc7e6"
             },
             "require": {
                 "php": ">=5.6"
@@ -23,7 +23,7 @@
                     "Fw\\": "src/Fw"
                 }
             },
-            "time": "2015-06-15 19:28:37"
+            "time": "2015-06-24 19:51:52"
         }
     ],
     "packages-dev": [],
