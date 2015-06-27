@@ -12,10 +12,11 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lauquint/laura-fw",
-                "reference": "3b13dcc930a88a7cb5e320396c1374958f3dc7e6"
+                "reference": "e2462b60502517a5e5e7f9478c9268ffda08675f"
             },
             "require": {
-                "php": ">=5.6"
+                "php": ">=5.6",
+                "twig/twig": "~1.0"
             },
             "type": "project",
             "autoload": {
@@ -23,7 +24,64 @@
                     "Fw\\": "src/Fw"
                 }
             },
-            "time": "2015-06-24 19:51:52"
+            "time": "2015-06-27 22:20:41"
+        },
+        {
+            "name": "twig/twig",
+            "version": "1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twigphp/Twig.git",
+                "reference": "12bf70d9addf613260056f9840aee23b151073f7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/12bf70d9addf613260056f9840aee23b151073f7",
+                "reference": "12bf70d9addf613260056f9840aee23b151073f7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.18-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Twig_": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Armin Ronacher",
+                    "email": "armin.ronacher@active-4.com",
+                    "role": "Project Founder"
+                },
+                {
+                    "name": "Twig Team",
+                    "homepage": "http://twig.sensiolabs.org/contributors",
+                    "role": "Contributors"
+                }
+            ],
+            "description": "Twig, the flexible, fast, and secure template language for PHP",
+            "homepage": "http://twig.sensiolabs.org",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2015-06-24 16:24:09"
         }
     ],
     "packages-dev": [],
