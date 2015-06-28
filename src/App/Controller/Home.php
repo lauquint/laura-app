@@ -3,32 +3,31 @@
 namespace App\Controller;
 
 use Fw\Component\Controllers\Controller;
+use Fw\Component\Databases\MysqlPDO\MysqlPDOConnection;
 use Fw\Component\Dispatching\HttpRequest;
 use Fw\Component\Dispatching\WebResponse;
+use Fw\Component\Databases\Database;
+use \PDO;
 
 
 
 class Home implements Controller {
 
-    public function __invoke(HttpRequest $request) {
+    public function __invoke(HttpRequest $request, Database $db) {
 
-        $name='Eva';
-        $surname='Doménech';
+        $id=2;
 
-        $result = array('name' => $name, 'last_name' => $surname);
+        $statement =$db->database->prepare('SELECT name, surname FROM user WHERE id= :id');
+        $statement->bindParam(':id', $id, PDO::PARAM_INT);
+        $statement->execute();
+        $result = $statement->fetchAll(PDO::FETCH_ASSOC);
+
 
         $template = 'index.html.twig';
 
-        $response = new WebResponse($result, $template);
+        $response = new WebResponse($result[0], $template);
 
         return $response;
-
-
-        //$loader = new \Twig_Loader_Filesystem(__DIR__ .'/../../templates' );
-
-        //$twig = new Twig_Environment($loader);
-       // echo $twig->render('index.html.twig', array('name' => $name));
-
 
     }
 

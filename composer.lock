@@ -12,7 +12,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lauquint/laura-fw",
-                "reference": "e2462b60502517a5e5e7f9478c9268ffda08675f"
+                "reference": "ca8604fbd3dc3a0afc574184f5f2697b9dac0cc3"
             },
             "require": {
                 "php": ">=5.6",
@@ -24,7 +24,7 @@
                     "Fw\\": "src/Fw"
                 }
             },
-            "time": "2015-06-27 22:20:41"
+            "time": "2015-06-28 20:56:52"
         },
         {
             "name": "twig/twig",
