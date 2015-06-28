@@ -1,6 +1,10 @@
 <?php
 
 $controllers = array(
-    'home'=>'App\Controller\Home',
-    'hello'=>'App\Controller\Welcome',
+    'Home' => array(
+        'controller'=>'App\Controller\Home'
+    ),
+    'Welcome'=>array(
+        'controller'=>'App\Controller\Welcome'
+    )
 );

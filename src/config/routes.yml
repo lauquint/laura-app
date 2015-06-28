@@ -1,0 +1,6 @@
+"Home":
+  route:  '/'
+  method: 'get'
+"Welcome":
+  route:  '/welcome'
+  method: 'get'

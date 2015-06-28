@@ -12,10 +12,11 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lauquint/laura-fw",
-                "reference": "ca8604fbd3dc3a0afc574184f5f2697b9dac0cc3"
+                "reference": "46403c486eb5be7c3c81b59f81aaed4ad7f35658"
             },
             "require": {
                 "php": ">=5.6",
+                "symfony/yaml": "^2.7",
                 "twig/twig": "~1.0"
             },
             "type": "project",
@@ -24,7 +25,56 @@
                     "Fw\\": "src/Fw"
                 }
             },
-            "time": "2015-06-28 20:56:52"
+            "time": "2015-06-28 23:31:31"
+        },
+        {
+            "name": "symfony/yaml",
+            "version": "2.8.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Yaml.git",
+                "reference": "f248a72777f3fec2bcafdce3ccd94086250448e1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/f248a72777f3fec2bcafdce3ccd94086250448e1",
+                "reference": "f248a72777f3fec2bcafdce3ccd94086250448e1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "~2.7|~3.0.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Yaml\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Yaml Component",
+            "homepage": "https://symfony.com",
+            "time": "2015-06-19 15:09:14"
         },
         {
             "name": "twig/twig",

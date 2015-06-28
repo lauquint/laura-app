@@ -1,0 +1,4 @@
+"Home":
+  controller: 'App\Controller\Home'
+"Welcome":
+  controller: 'App\Controller\Welcome'
