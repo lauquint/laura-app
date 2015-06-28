@@ -1,5 +1,7 @@
 <?php
 
+//TODO prod should hace Caching configured
+
 require '../vendor/autoload.php';
 
 include __DIR__ . '/../src/config/db.php';
