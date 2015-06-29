@@ -12,7 +12,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lauquint/laura-fw",
-                "reference": "46403c486eb5be7c3c81b59f81aaed4ad7f35658"
+                "reference": "b071fa0c134aad1bbf9496154ce7042fb61c3519"
             },
             "require": {
                 "php": ">=5.6",
@@ -25,7 +25,7 @@
                     "Fw\\": "src/Fw"
                 }
             },
-            "time": "2015-06-28 23:31:31"
+            "time": "2015-06-29 01:13:03"
         },
         {
             "name": "symfony/yaml",
